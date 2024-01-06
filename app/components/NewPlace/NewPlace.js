@@ -5,7 +5,7 @@ const NewPlace = () => {
     <div className="bg-lightkblue overflow-x-hidden">
       <div className="relative   flex justify-center w-full ">
         <div className=" flex flex-col items-center space-y-5 justify-center w-full lg:h-[80vh] md:h-[80vh] xxxs:h-[50vh] ">
-          <h2 className="text-center text-[29px] font-serif font-bold">
+          <h2 className="text-center text-[22px] font-serif font-bold px-4">
             Renting a good place is the start of something great.
           </h2>
 

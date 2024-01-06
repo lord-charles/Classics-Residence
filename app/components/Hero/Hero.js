@@ -4,16 +4,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-lightkblue  flex justify-center h-fit pt-10 overflow-x-hidden">
-      <div className=" max-w-7xl  lg:px-[80px] md:px-6 xxxs:px-0 bg-white rounded-md shadow-md mx-2 my-8 p-2">
-        <div className="p-2">
+    <div className="relative bg-lightkblue  flex justify-center h-fit pt-2 overflow-x-hidden items-center w-screen">
+      <div className=" max-w-7xl  lg:px-[80px] md:px-6 xxxs:px-0 bg-white rounded-md shadow-md w-[92%]  my-8">
+        <div className="p-4">
           <h2 className="text-center font-bold text-[25px] font-serif">
-            Unveil our essence and discover what defines us.
+            Unveil our essence.
           </h2>
-          <p className="py-2">
-            Explore a host of services on the Classic Residence online platform,
-            including hassle-free online bill payments. Check out our
-            comprehensive list below.
+          <p className="py-2 text-center">
+            Explore seamless online bill payments and more on Classic Residence.
           </p>
         </div>
         <Divider className="bg-gray-300 " />
