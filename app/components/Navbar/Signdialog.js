@@ -55,15 +55,14 @@ const Signin = () => {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+                  <div className="flex min-h-full items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
                     <div className="w-full max-w-md space-y-8">
                       <div>
-                        <img
-                          className="mx-auto h-12 w-auto"
-                          src="/assets/logo/logo.svg"
-                          alt="Your Company"
-                        />
-                        <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
+                        <h2 className="mt-6 text-center text-2xl font-bold tracking-tight text-gray-900 font-serif">
+                          Classics Residence
+                        </h2>
+
+                        <h2 className="mt-4 text-center text-lg font-bold tracking-tight text-gray-900">
                           Sign in to your account
                         </h2>
                       </div>
@@ -137,7 +136,7 @@ const Signin = () => {
                           >
                             <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                               <LockClosedIcon
-                                className="h-5 w-5 text-indigo-500 group-hover:text-indigo-400"
+                                className="h-5 w-5 text-white group-hover:text-indigo-400"
                                 aria-hidden="true"
                               />
                             </span>

@@ -15,7 +15,7 @@ const Banner = ({ setIsOpen, isOpen, setIsOpen1, isOpen1 }) => {
       }}
     >
       {/* part A  */}
-      <div className="xxs:pt-[110px] md:pt-[220px] lg:pt-[220px]">
+      <div className="xxs:pt-[120px] md:pt-[220px] lg:pt-[220px]">
         <h1 className="text-midnightblue lg:text-5xl md:text-4xl xxxs:text-[26px] font-serif font-bold text-center lg:text-center lh-120 pt-3 px-3 ">
           Welcome to Classic Residence.
         </h1>
