@@ -4,7 +4,9 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
 
-const Signin = ({ setIsOpen, isOpen }) => {
+const Signin = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const closeModal = () => {
     setIsOpen(false);
   };
