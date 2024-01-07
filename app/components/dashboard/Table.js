@@ -42,7 +42,7 @@ const DashboardTable = () => {
     <Card>
       <div>
         <h2 className="text-black text-center p-4 font-semibold text-[19px]">
-          Current & previos occupants in F6
+          Current & previous occupants in F6
         </h2>
       </div>
       <TableContainer>
