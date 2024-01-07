@@ -68,7 +68,7 @@ const Trophy = () => {
           Current occupant in F6.
         </Typography>
         <div className="flex">
-          <div className="flex flex-col space-y-2 mt-3 z-[999]">
+          <div className="flex flex-col space-y-2 mt-3 z-20">
             <div className="flex items-center space-x-2">
               <h2 className="font-semibold">Total Amount Due:</h2>
               <h2 className="text-primary">Ksh 5200</h2>
