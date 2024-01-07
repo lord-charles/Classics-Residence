@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const Banner = ({ setIsOpen, isOpen, setIsOpen1, isOpen1 }) => {
+  const router = useRouter();
   return (
     <div
       id="home-section"
@@ -15,7 +17,7 @@ const Banner = ({ setIsOpen, isOpen, setIsOpen1, isOpen1 }) => {
       }}
     >
       {/* part A  */}
-      <div className="xxs:pt-[120px] md:pt-[220px] lg:pt-[220px]">
+      <div className="xxs:pt-[140px] md:pt-[220px] lg:pt-[220px]">
         <h1 className="text-midnightblue lg:text-5xl md:text-4xl xxxs:text-[26px] font-serif font-bold text-center lg:text-center lh-120 pt-3 px-3 ">
           Welcome to Classic Residence.
         </h1>
@@ -28,7 +30,9 @@ const Banner = ({ setIsOpen, isOpen, setIsOpen1, isOpen1 }) => {
       <div className="mx-auto flex gap-x-3 py-6 justify-center lg:hidden md:hidden xxs:flex">
         <div
           className="text-white hover:bg-indigo-500 bg-green-600 w-fit mb-4  px-10 py-2 rounded-md "
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => {
+            router.push("/account");
+          }}
         >
           Login
         </div>
