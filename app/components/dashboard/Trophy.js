@@ -61,9 +61,9 @@ const Trophy = () => {
   return (
     <Card sx={{ position: "relative" }}>
       <CardContent>
-        <Typography variant="h6" className="text-[16px]">
+        <h2 className="text-[17px] font-semibold font-serif">
           Good {getTimeOfDay()} Charles mwaniki! {getTimeOfDayIcon()}
-        </Typography>
+        </h2>
         <Typography variant="body2" sx={{ letterSpacing: "0.25px" }}>
           Current occupant in F6.
         </Typography>
